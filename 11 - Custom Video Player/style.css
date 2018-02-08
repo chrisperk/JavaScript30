@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  --width: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -101,7 +105,7 @@ body {
   width:50%;
   background:#ffc600;
   flex:0;
-  flex-basis:50%;
+  flex-basis:0;
 }
 
 /* unholy css to style input type="range" */
